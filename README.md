@@ -2,4 +2,6 @@
 
 TBC
 
-Bootstraps (itzg/docker-minecraft-server)[https://github.com/itzg/docker-minecraft-server]
+Bootstraps docker-minecraft-server https://github.com/itzg/docker-minecraft-server
+
+Cloud Formation: https://github.com/vatertime/minecraft-spot-pricing
