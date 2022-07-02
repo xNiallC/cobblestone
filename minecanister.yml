@@ -1,0 +1,18 @@
+version: "3"
+services:
+  minecanister:
+    image: itzg/minecraft-server
+    ports:
+      - 25563:25565
+    environment:
+      MEMORY: "1G"
+      TYPE: "VANILLA"
+      MOTD: "Niall's Place"
+      MODE: "survival"
+      EULA: "TRUE"
+      ENABLE_RCON: "true"
+      RCON_PASSWORD: "password"
+      RCON_PORT: 28016
+      restart: always
+    volumes:
+      - ./minecraftdata:/data
